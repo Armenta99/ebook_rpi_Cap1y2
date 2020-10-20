@@ -1,4 +1,3 @@
-<p align="center">
 
 ![](https://images.cooltext.com/5473675.gif)
 
@@ -25,4 +24,3 @@
 
 **Para terminar este es mi horario donde podrán ver cuando me encuentro disponible. Eso seria todo de mi parte y espero tengas un buen dia.**
 
-</p>
