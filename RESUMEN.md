@@ -24,3 +24,4 @@
 
 **Para terminar este es mi horario donde podrán ver cuando me encuentro disponible. Eso seria todo de mi parte y espero tengas un buen dia.**
 
+Objetivos: En esta sesión experimentaremos con las subrutinas. Veremos en qué consiste la convención AAPCS y cómo aplicarla tanto para llamar a funciones externas como para crear nuestras propias funciones. Escribiremos un programa en C que llame a funciones escritas en ensamblador. Por último explicaremos qué son los registros de activación y cómo aplicarlos para almacenar variables
