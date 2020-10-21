@@ -5,7 +5,7 @@
 
 
 .data
-var1 : .asciz " %d\ 012 "
+var1: .asciz " %d\ 012 "
 
 .text
 .global main

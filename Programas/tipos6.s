@@ -1,13 +1,14 @@
 /* Armenta Peña José Francisco */
 /* No. Control: 18212146*/
+/* Fecha: 21/Oct/2020 */
 /* Programa en ARM32: Práctica #14 del libro de practicas de RPI, suma de vectores con otros valores*/
 /* Materia: Lenguajez de Interfaz*/
 
 
 
 .data
-var1 : .asciz " La suma es %lld \ n"
-var2 : .word 1600000000, - 100, 800000000, - 50, 200
+var1: .asciz " La suma es %lld \ n"
+var2: .word 1600000000, - 100, 800000000, - 50, 200
 .text
 .global main
 /* Salvamos registros */

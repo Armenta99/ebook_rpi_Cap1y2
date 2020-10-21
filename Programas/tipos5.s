@@ -1,5 +1,6 @@
 /* Armenta Peña José Francisco */
 /* No. Control: 18212146*/
+/* Fecha: 21/Oct/2020 */
 /* Programa en ARM32: Práctica #13 del libro de practicas de RPI, suma de vectores con otros valores*/
 /* Materia: Lenguajez de Interfaz*/
 

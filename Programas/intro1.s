@@ -1,4 +1,5 @@
 /* Armenta Peña José Francisco */
+/* Fecha: 20/Oct/2020 */
 /* No. Control: 18212146*/
 /* Programa en ARM32: Práctica #1 del libro de practicas de RPI*/
 /* Materia: Lenguajez de Interfaz*/
@@ -7,13 +8,13 @@
 
 .data
 
-var1 : .word 	3
-var2 : .word 	4
-var3 : .word 	0x1234
+var1: .word 	3
+var2: .word 	4
+var3: .word 	0x1234
 .text
 .global main
 
-main : ldr r1, puntero_var1 	/* r1 <- & var1 */
+main: ldr r1, puntero_var1 	/* r1 <- & var1 */
 		ldr r1, [ r1 ] 			/* r1 <- *r1 */
 		ldr r2, puntero_var2 	/* r2 <- & var2 */
 		ldr r2, [ r2 ] 			/* r2 <- *r2 */
@@ -22,6 +23,6 @@ main : ldr r1, puntero_var1 	/* r1 <- & var1 */
 		str r0, [ r3 ] 			/* *r3 <- r0 */
 		bx 	lr
 
-puntero_var1 : .word var1
-puntero_var2 : .word var2
-puntero_var3 : .word var3
+puntero_var1: .word var1
+puntero_var2: .word var2
+puntero_var3: .word var3

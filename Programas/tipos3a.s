@@ -1,5 +1,6 @@
 /* Armenta Peña José Francisco */
 /* No. Control: 18212146*/
+/* Fecha: 21/Oct/2020 */
 /* Programa en ARM32: Práctica #9 del libro de practicas de RPI, imprimir en un ciclo pero en ensamblador*/
 /* Materia: Lenguajez de Interfaz*/
 

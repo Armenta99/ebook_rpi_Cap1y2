@@ -1,5 +1,6 @@
 /* Armenta Peña José Francisco */
 /* No. Control: 18212146*/
+/* Fecha: 20/Oct/2020 */
 /* Programa en ARM32: Practica #4 del libro de practicas de RPI, rotaciones.*/
 /* Materia: Lenguajez de Interfaz*/
 
