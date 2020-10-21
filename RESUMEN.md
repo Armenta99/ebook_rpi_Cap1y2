@@ -119,6 +119,7 @@ En la siguiente tabla vemos las 5 instrucciones de multiplicación que existen.
 
 
 ![](https://images.cooltext.com/5473987.png)
+
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
 # Lectura previa
