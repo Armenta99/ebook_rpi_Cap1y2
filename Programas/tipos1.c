@@ -9,7 +9,7 @@
 void main ( void ){
 
 int vi , vf , i;
-for ( i= vi ; i <= vf ; i ++ ){
+for ( i = vi; i <= vf; i++ ){
 /* Cuerpo del bucle */
 }
 i= vi;

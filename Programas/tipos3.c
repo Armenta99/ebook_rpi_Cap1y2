@@ -5,11 +5,11 @@
 /* Materia: Lenguajez de Interfaz*/
 
 
-# include < stdio.h >
+# include <stdio.h>
 
 void main ( void ){
 int i;
-for ( i= 0; i <5; i ++ ){
+for ( i= 0; i <5; i++ ){
 printf ( " %d\n " , i );
 }
 }
