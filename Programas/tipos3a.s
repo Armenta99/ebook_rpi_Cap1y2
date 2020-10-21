@@ -1,0 +1,21 @@
+/* Armenta Peña José Francisco */
+/* No. Control: 18212146*/
+/* Programa en ARM32: Práctica #9 del libro de practicas de RPI, imprimir en un ciclo pero en ensamblador*/
+/* Materia: Lenguajez de Interfaz*/
+
+
+
+.data
+var1 : .asciz " %d\ 012 "
+
+.text
+.global main
+main :  push { r4, lr }
+		mov r4, # 0
+.L2 : 	mov r1, r4
+		ldr r0, = var1
+		add r4, r4, # 1
+		bl printf
+		cmp r4, # 5
+		bne .L2
+		pop { r4, pc }
