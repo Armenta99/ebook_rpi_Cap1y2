@@ -35,12 +35,12 @@ Cuando escribimos un dato en una posición de memoria, dependiendo de si es byte
 
 ![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/3.PNG)
 
-## 1.1.2. El lenguaje ensamblador
+## El lenguaje ensamblador
 
 El ensamblador es un lenguaje de bajo nivel que permite un control directo de la CPU y todos los elementos asociados. Cada línea de un programa ensamblador consta de una instrucción del procesador y la posición que ocupan los datos de esa instrucción. 
 El ensamblador presenta una serie de ventajas e inconvenientes con respecto a otros lenguajes de más alto nivel. Al ser un lenguaje de bajo nivel, presenta como principal característica la flexibilidad y la posibilidad de acceso directo a nivel de registro. En contrapartida, programar en ensamblador es laborioso puesto que los programas contienen un número elevado de líneas y la corrección y depuración de éstos se hace difícil.
 
-## 1.1.3. El entorno 
+## El entorno 
 
 Los pasos habituales para hacer un programa (en cualquier lenguaje) son los siguientes: lo primero es escribir el programa en el lenguaje fuente mediante un editor de programas. El resultado es un fichero en un lenguaje que puede entender el usuario, pero no la máquina. Para traducirlo a lenguaje máquina hay que utilizar un programa traductor. Éste genera un fichero con la traducción de dicho programa, pero todavía no es un programa ejecutable. Un fichero ejecutable contiene el programa traducido más una serie de códigos que debe tener todo programa que vaya a ser ejecutado en una máquina determinada. Entre estos códigos comunes se encuentran las librerías del lenguaje. El encargado de unir el código del programa con el código de estas librerías es un programa llamado montador (linker) que genera el programa ejecutable 
 
@@ -54,7 +54,7 @@ de datos incompatibles. Estos errores son detectados por el traductor y se deben
 solucionar para poder generar un ejecutable
 
 
-## 1.1.5. Aspecto de un programa en ensamblador 
+## Aspecto de un programa en ensamblador 
 Con el siguiente código nos apoyaremos para visualizar el contenido que tiene un programa.
 
 ![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/5.PNG)
@@ -113,31 +113,7 @@ Las instrucciones de multiplicación admiten muchas posibilidades, debido a que
 es una operación en la cual el resultado tiene el doble de bits que cada operando.
 En la siguiente tabla vemos las 5 instrucciones de multiplicación que existen.
 
-![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/mult.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/mult.PNG) 
 
 
 
@@ -145,12 +121,12 @@ En la siguiente tabla vemos las 5 instrucciones de multiplicación que existen.
 ![](https://images.cooltext.com/5473987.png)
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 
-# 2.1. Lectura previa
-## 2.1.1. Modos de direccionamiento del ARM 
+# Lectura previa
+## Modos de direccionamiento del ARM 
 
 En la arquitectura ARM los accesos a memoria se hacen mediante instrucciones específicas ldr y str (luego veremos las variantes ldm, stm y las preprocesadas push y pop). El resto de instrucciones toman operandos desde registros o valores inmediatos, sin excepciones. En este caso la arquitectura nos fuerza a que trabajemos de un modo determinado: primero cargamos los registros desde memoria, luego procesamos el valor de estos registros con el amplio abanico de instrucciones del ARM, para finalmente volcar los resultados desde registros a memoria. Existen otras arquitecturas como la Intel x86, donde las instrucciones de procesado nos permiten leer o escribir directamente de memoria. 
 
-## 2.1.2. Tipos de datos 
+## Tipos de datos 
 **Tipos de datos básicos.** En la siguiente tabla se recogen los diferentes tipos de datos básicos que podrán aparecer en los ejemplos, así como su tamaño y rango de representación. 
 
 ![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/TipDatos.PNG)
