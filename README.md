@@ -58,7 +58,7 @@ solucionar para poder generar un ejecutable
 
 Esta parte ya había sido elaborada previamente con un video tutorial elaborado por el MC. René Solis Reyes, donde nos proporcionaba los sitios de descarga y los pasos a realizar para emulador QEMU, que nos proporciona una máquina virtual de 32 bits para trabajar.
 
-
+![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/QEMU.PNG)
 
 
 ## Aspecto de un programa en ensamblador 
@@ -113,6 +113,37 @@ Las instrucciones de rotación también se desplazan, pero el bit que sale del v
 Las instrucciones de rotación con el carry funcionan de manera similar, pero el bit que entra es el que había en el flag C y el que sale va a parar al flag C. Estas instrucciones sólo rotan un bit, al contrario que las anteriores que podían rotar/desplazar varios. La rotación con carry a la derecha es RRX, no existe la contrapartida RLX porque se puede sintetizar con otra instrucción ya existente adcs. 
 
 ![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/insrotcar.PNG)
+
+
+## Ensamblar y linkar un programa
+
+
+Para ensamblar un programa lo que debemos de hacer es tener el programa (en este caso es el intro1.s) y una vez accesado el directorio donde se encuentra el programa lo que debemos de hacer es en la terminal escribir el comando:
+
+```bash
+as -o intro1.o intro1.s
+```
+
+Lo que hará esto es crear un archivo temporal que nos permitirá linkear nuestro programa. Una vez teniendo el archivo “.o” debemos de escribir el siguiente comando para linkear:
+
+```bash
+gcc -o intro1 intro1.o
+```
+Y con esto tendremos nuestro programa completo.
+
+Una vez teniendo nuestro programa escribiremos:
+
+```bash
+gdb intro1
+```
+Y con esto accederemos al depurador de nuestro programa donde podremos realizar acciones como pedir información de nuestro programa, consultar ayuda con el depurador y modificar el valor de los registros.
+
+![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/intro1.PNG)
+**Linkear el programa para depurarlo**
+
+![](https://github.com/Armenta99/ebook_rpi_cap1y2/blob/main/Imagenes/intro1gdb.PNG)
+
+**Depurador**
 
 
 ### Instrucciones de multiplicación
