@@ -1,4 +1,4 @@
-![](imagen/portadatcnm.png)
+![](https://github.com/tectijuana/li20b-bii2-qemu-Armenta99/blob/main/imagen/portadatcnm.png)
 
 #    Tecnológico Nacional de México
 #   Instituto Tecnológico de Tijuana
