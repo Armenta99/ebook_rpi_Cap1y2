@@ -1,3 +1,25 @@
+![](imagen/portadatcnm.png)
+
+#    Tecnológico Nacional de México
+#   Instituto Tecnológico de Tijuana
+#        Subdirección Académica
+
+# Departamento de Sistemas y Computación
+# Ingeniería en Sistemas Computacionales
+# Lenguajes de interfaz 
+
+# Practica Bloque: 2
+# Objetivo: Lectura y ejercicios de ARM32 del ebook OpenSource
+
+
+# Nombre: Armenta Peña José Francisco 
+# No. Control: 18212146
+   
+
+# Profesor:
+# MC. René Solis Reyes
+# Semestre sep - ene 2020
+
 
   
 ![](https://images.cooltext.com/5473986.png)
